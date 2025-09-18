@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+      color: #007bff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease forwards;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #555;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    a.download-btn {
+      display: inline-block;
+      padding: 15px 35px;
+      font-size: 20px;
+      color: #fff;
+      background: linear-gradient(90deg, #007bff, #00c6ff);
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    a.download-btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      background: linear-gradient(90deg, #0056b3, #00a0e6);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    /* subtle fade-in animation */
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Download App</h1>
+  <p>Click the button below to get the latest APK version!</p>
+  <a class="download-btn" href="RTO_Challan.apk">⬇ Download APK</a>
+</body>
+</html>
